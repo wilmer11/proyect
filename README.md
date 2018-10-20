@@ -6,7 +6,7 @@ Es un proyecto personal para dar a conocer un trabajo
 
 ### Version
 
-1.0.0
+3.0.0
 
 ### Realizado 
 
