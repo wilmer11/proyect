@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Proyecto personal hecho con html, css, Javascript"/>
+	<meta name="keywords" content="diseño web, maquetacion web, desarrollo web, responsive, paginas con responsive, html, css, node, js, javascript, php"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/ccaf9f27f3.js"></script>
+    <title>Desarrollador web | Wilmer A. Galeano</title>
+</head>
+
+<body>
+
+    <!-- flecha ir arriba -->
+    <span class="ir-arriba fa fa-chevron-up"></span>
+
+    <!-- header -->
+    <header>
+        <nav class="menu">
+            <div class="contenedor-menu">
+                <div class="logo">
+                    <div class="logo-name" id="logo">
+                        <a href="#" id="boton-logo">Wilmer A. Galeano</a>
+                    </div>
+                    <div class="icon-menu">
+                        <span id="abrir" class="fa fa-bars"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-link" id="menu-link">
+                <ul>
+                    <li><a href="#" id="boton-acerca">Acerca de</a></li>
+                    <li><a href="#" id="boton-proyectos">Proyectos</a></li>
+                    <li><a href="#" id="boton-encuentrame">Encuéntrame</a></li>
+                    <li><a href="#" id="boton-">Contácto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner -->
+    <section class="banner">
+        <div class="bg-banner"></div>
+        <div class="bg-detalles">
+            <div class="detalles">
+                <h1>Bienvenidos a mi sitio web</h1>
+                <a href="#" id="boton-leer">Leer más</a>
+            </div>
+        </div>
+    </section>
+
+<!-- ventana modal -->
+    <div id="miModal" class="modal">
+            <div class="flex" id="flex">
+                <div class="contenido-modal">
+                    <div class="modal-header flex">
+                        <span class="fa fa-close close" id="close"></span>
+                        <h2>Datos sobre mi</h2>
+                    </div>
+                    <div class="modal-body">
+                        <p class="linea1">Tecnólogo en producción de multimedia con énfasis en desarrollo web.</p>
+                        <p class="linea1">Cuento con dos años dentro del entorno de desarrollo de sitios web, siendo fiel a las tendencias actuales.</p>
+                        <p class="linea1">Desde una metodología profesional elaboro los mejores proyectos; quienes se encargan de satisfacer las necesidades del cliente.</p>
+                        <p class="linea2">Mis números personales:</p>
+                        <p class="linea2"><span class="fa fa-mobile"></span> 3118349930 - <span class="fa fa-mobile"></span> / <span class="fa fa-whatsapp"></span> 3214487570</p>
+                        <p class="linea2">Mis correos personales:</p>
+                        <p class="linea2">g_atoman@hotmail.com wilgatoman11@gmail.com</p>
+                        <h3>¡CONTRÁTAME AHORA!</h3>
+                    </div>
+                    <div class="modal-footer">
+                        <h3>Hecho por &copy; Wilmer A. Galeano</h3>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    <!-- contenido -->
+    <section class="contenido" id="contenido">
+        <div class="contenedor">
+            <div class="titulo">
+                <h1>Acerca de mi</h1>
+                <h3>¡HOLA! mi nombre es Wilmer Alfredo Galeano y soy tecnólogo en producción de multimedia, con énfasis en desarrollo y diseño web.</h3>
+            </div>
+            <div class="parrafo">
+                <p>Estoy Disponible para aquellos quienes estén interesados en tener su propia web (Empresas, Personas,
+                    Proyectos).</p>
+
+                <p>Si tú empresa no está en internet, no existe dentro del mercado globalizado de hoy. ¿Está pensando en
+                    iniciar tú empresa, proyecto de vida o emprendimiento? Una buena idea es dar a conocer tu proyecto o empresa por internet desde tu propio sitio, alojado en la web. Desarrollado con los conocimientos que te ofrezco sobre esta área. De nuevo, no dudes contactarme...</p>
+
+                <div class="boton-contacta">
+                    <a href="#" id="boton-abrir">Contacta conmigo</a>
+                </div>
+
+                <p>Como dije, cuento con un amplio conocimiento en la creación de contenido web usando todo tipo de
+                    herramientas y lenguajes de desarrollo, entre las que encontramos:</p>
+            </div>
+            <div class="iconos">
+                <div class="lenguaje-img">
+                    <img src="img/html.png">
+                <div class="lenguaje-txt" alt="html">
+                    <h4>HTML5</h4>
+                </div>
+                </div>
+                <div class="lenguaje-img">
+                    <img src="img/css.png" alt="css">
+                <div class="lenguaje-txt">
+                    <h4>CSS3</h4>
+                </div>
+                </div>
+                <div class="lenguaje-img">
+                    <img src="img/js.png" alt="javascript">
+                <div class="lenguaje-txt">
+                    <h4>Javascript</h4>
+                </div>
+                </div>
+                <div class="lenguaje-img">
+                    <img src="img/php.png" alt="php">
+                <div class="lenguaje-txt">
+                    <h4>PHP</h4>
+                </div>
+                </div>
+                <div class="lenguaje-img">
+                    <img src="img/nodejs.png" alt="node.js">
+                <div class="lenguaje-txt">
+                    <h4>Node.js</h4>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- proyectos -->
+    <section class="proyectos" id="proyectos">
+    <div class="contenedor">
+        <div class="textos-titulo">
+            <h3>Ejemplo de proyectos creados por mi</h3>
+        </div>
+        <div class="botones">
+            <ul>
+                <li class="filter active" data-nombre='todos'>Todos</li>
+                <li class="filter" data-nombre='diseño'>Diseño</li>
+                <li class="filter" data-nombre='programacion'>Programación</li>
+                <li class="filter" data-nombre='marketing'>Marketing</li>
+            </ul>
+        </div>
+        <div class="galeria">
+            <div class="cont-work diseño">
+                <div class="img-work">
+                    <img src="img/imagen1.jpg" alt="diseño">
+                </div>
+                <div class="textos-work">
+                    <h4>Diseño</h4>
+                </div>
+            </div>
+            <div class="cont-work diseño">
+                <div class="img-work">
+                    <img src="img/imagen2.jpg" alt="diseño">
+                </div>
+                <div class="textos-work">
+                    <h4>Diseño</h4>
+                </div>
+            </div>
+            <div class="cont-work diseño">
+                <div class="img-work">
+                    <img src="img/imagen3.jpg" alt="diseño">
+                </div>
+                <div class="textos-work">
+                    <h4>Diseño</h4>
+                </div>
+            </div>
+            <div class="cont-work programacion">
+                <div class="img-work">
+                    <img src="img/proyecto1.jpg" alt="programación">
+                </div>
+                <div class="textos-work">
+                    <h4>Programación</h4>
+                </div>
+            </div>
+            <div class="cont-work programacion">
+                <div class="img-work">
+                    <img src="img/proyecto2.jpg" alt="programación">
+                </div>
+                <div class="textos-work">
+                    <h4>Programación</h4>
+                </div>
+            </div>
+            <div class="cont-work programacion">
+                <div class="img-work">
+                    <img src="img/proyecto3.jpg" alt="programación">
+                </div>
+                <div class="textos-work">
+                    <h4>Programación</h4>
+                </div>
+            </div>
+            <div class="cont-work marketing">
+                <div class="img-work">
+                    <img src="img/seo1.jpg" alt="marketing">
+                </div>
+                <div class="textos-work">
+                    <h4>Marketing</h4>
+                </div>
+            </div>
+            <div class="cont-work marketing">
+                <div class="img-work">
+                    <img src="img/seo2.jpg" alt="marketing">
+                </div>
+                <div class="textos-work">
+                    <h4>Marketing</h4>
+                </div>
+            </div>
+            <div class="cont-work marketing">
+                <div class="img-work">
+                    <img src="img/seo3.jpg" alt="marketing">
+                </div>
+                <div class="textos-work">
+                    <h4>Marketing</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="encuentrame">
+        <div class="footer contenedor">
+            <div class="footer-texto">
+                <h1>Encuéntrame</h1>
+                <p class="pasion">La pasión e innovación es lo que me distingue del resto.</p>
+            </div>
+            <div class="iconos-foo">
+                <a href="https://twitter.com/WilmerGal11" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/wilcat11" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://github.com/wilmer11" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+            <div class="footer-texto">
+                <p class="copy">Wilmer A. Galeano Copyright &copy;2018. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+
+</body>
+
+</html>
